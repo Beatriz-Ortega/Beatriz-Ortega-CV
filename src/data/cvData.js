@@ -121,7 +121,7 @@ export const experienceData = [
         charge: 'Digital Beat SPA',
         date: 'Marzo 2023 - Junio 2023',
         description: `Desarrollo de web components según requerimiento del área de diseño utilizando Bootstrap, Sass, CSS, JavaScript 
-        con utilidades dinámicas e interactivas. Desarrollo de documentación para los componente elaborados.`
+        con utilidades dinámicas, interactivas y con diseño responsive. Desarrollo de documentación para los componente elaborados.`
     },
     {
         title: 'Desarrolladora Web Freelance',
