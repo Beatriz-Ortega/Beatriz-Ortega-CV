@@ -153,7 +153,7 @@ export const projectsData = [
         title: 'Calculadora',
         description: 'Calculadora creada con HTML, CSS y JS',
         url: 'https://github.com/Beatriz-Ortega/Calculadora',
-        img: '../../public/img/web.jpg',
+        img: 'img/web.jpg',
         alt: 'calculadora',
         ref: 'https://github.com/Beatriz-Ortega/Calculadora',
         tech:{
@@ -166,7 +166,7 @@ export const projectsData = [
         title: 'Cotizar Cripto',
         description: `Cotizador de criptomonedas con API Rest`,
         url: 'https://github.com/vortegar/Journal-App',
-        img: '../../public/img/web2.jpg',
+        img: 'img/web2.jpg',
         alt: 'Cotizador Cripto',
         ref: 'https://github.com/vortegar/Journal-App',
         tech:{
@@ -181,7 +181,7 @@ export const projectsData = [
         description: `Página web con carro de compras`,
         // React boostrsap
         url: 'https://luxury-elf-6360d3.netlify.app/',
-        img: '../../public/img/web3.jpg',
+        img: 'img/web3.jpg',
         alt: 'Carro de compras',
         ref: 'https://luxury-elf-6360d3.netlify.app/',
         tech:{
@@ -195,7 +195,7 @@ export const projectsData = [
         description: `Sistema de citas creado con React`,
         //creada utilizando HTML, Bootstrap y Sass.
         url: 'https://graceful-meringue-f4104e.netlify.app/',
-        img: '../../public/img/web.jpg',
+        img: 'img/web.jpg',
         alt: 'Citas Veterinarias',
         ref: 'https://graceful-meringue-f4104e.netlify.app/',
         tech:{
@@ -208,7 +208,7 @@ export const projectsData = [
         title: 'Control de presupuesto',
         description: `Sistema de control de presupuesto`,
         url: 'https://mellow-cat-24a356.netlify.app/',
-        img: '../../public/img/web2.jpg',
+        img: 'img/web2.jpg',
         alt: 'Control de presupuesto',
         ref: 'https://mellow-cat-24a356.netlify.app/',
         tech:{
