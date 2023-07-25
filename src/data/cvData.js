@@ -143,8 +143,8 @@ export const experienceData = [
         charge: 'Ingeniería Eléctrica LTDA',
         date: 'MArzo 2016 - Junio 2018',
         description: `Responsable de generar Kpi's que permitieran analizar el nivel de desempeño en las diferentes áreas de la empresa 
-        y efectuar propuestas de mejora. Realizar el levantamiento de procesos de las diferentes áreas y elaborar su respectivo 
-        procedimiento. Generar manuales de procedimiento y gestión de calidad, según la normativa ISO 9001:2015.`
+        y efectuar propuestas de mejora. Realizar el levantamiento de procesos de las diferentes áreas y elaborar sus respectivos 
+        procedimientos, según la normativa ISO 9001:2015.`
     }
 ]
 
