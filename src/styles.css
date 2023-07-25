@@ -1,0 +1,403 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar{
+  --bs-navbar-toggler-focus-width: 0rem;
+}
+
+.navbar-color{
+  background: rgb(53, 23, 71);
+}
+
+.navbar-toggler{
+  border: none;
+}
+
+.tag_link{
+  color: rgb(53, 23, 71) !important;
+}
+
+.text-nombre-color{
+  color: rgb(53, 23, 71);
+  text-decoration: none;
+}
+
+.text-nombre-educacion{
+  color:#4C2282;
+  font-weight: 900;
+}
+
+.text-color-principal{
+  color:black;
+}
+
+.color-boton{
+  background-color: rgb(53, 23, 71);
+  color: white;
+  width: 250px;
+}
+
+.tamaño-card-portafolio{
+  width: 310px;
+}
+
+.name_cv{
+  height: 500px;
+  padding-top: 50px;
+}
+
+.sobre_mi{
+  height: auto;
+  padding-top: 50px;
+}
+
+.sobre_habilidades_contenedor{
+  height: auto;
+  padding-top: 90px;
+}
+
+.sobre_educacion_contenedor{
+  height: auto;
+  padding-top: 250px;
+}
+
+.educacion_contenido i{
+  color: var(--bs-tertiary-color);
+}
+
+.sobre_experiencia_contenedor{
+  height: auto;
+  padding-top: 250px;
+}
+
+.sobre_footer{
+  margin-top: 9rem;
+}
+
+.name_cv_text{
+  font-size: 6.8rem;
+  line-height: 80px;
+}
+
+.fixed-top{
+  position: sticky;
+  padding: 20px 10px 0px 10px;
+}
+
+.sobre_proyectos-contenedor{
+  height: auto;
+  padding-top: 200px;
+}
+
+/*Texto dinamico*/
+@keyframes typing {
+  0.0000%, 37.606% { content: ""; }
+  1.1395%, 36.4664% { content: "F"; }
+  2.2791%, 35.3268% { content: "Fr"; }
+  3.4186%, 34.1872% { content: "Fron"; }
+  4.5581%, 33.0476% { content: "Front"; }
+  5.6977%, 31.0908% { content: "Front E"; }
+  6.8372%, 30.7684% { content: "Front En"; }
+  7.9767%, 29.6288% { content: "Front End"; }
+  9.1163%, 28.4892% { content: "Front End D"; }
+  10.2558%, 27.3496% { content: "Front End De"; }
+  11.3954%, 26.21% { content: "Front End Dev"; }
+  12.5350%, 25.0704% { content: "Front End Deve"; }
+  13.6745%, 23.9308% { content: "Front End Devel"; }
+  14.8141%, 22.7912% { content: "Front End Develo"; }
+  15.9536%, 21.6516% { content: "Front End Develop"; }
+  17.0932%, 20.512% { content: "Front End Develope"; }
+  18.2328%, 19.3724% { content: "Front End Developer"; }
+
+  38.746%, 71.6776% { content: ""; }
+  39.8856%, 70.538% { content: "S"; }
+  40.0252%, 69.3984% { content: "Sy"; }
+  41.1648%, 68.2588% { content: "Sys"; }
+  42.3044%, 67.1192% { content: "Syst"; }
+  43.444%, 66.9796% { content: "Syste"; }
+  44.802%, 65.9796%  { content: "System"; }
+  45.5836%, 64.84%{ content: "System"; }
+  46.7232%, 63.7004%{ content: "Systems "; }
+  47.8628%, 62.5608% { content: "Systems E"; }
+  48.8628%, 61.100%{ content: "Systems En"; }
+  49.0024%, 60.4212% { content: "Systems Eng"; }
+  50.142%, 59.2816% { content: "Systems Engi"; }
+  51.142%, 58.2816% { content: "Systems Engin"; }
+  52.142%, 57.2816% { content: "Systems Engine"; }
+  53.142%, 56.2816% { content: "Systems Enginee"; }
+  54.142%, 55.2816% { content: "Systems Engineer"; }
+
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.h1-first .typewriter {
+  --caret: currentcolor;
+}
+
+.h1-first .typewriter::before {
+  content: "";
+  animation: typing 13.5s infinite;
+}
+
+.h1-first .typewriter::after {
+  content: "";
+  border-right: 1px solid var(--caret);
+  animation: blink 0.5s linear infinite;
+}
+
+.h1-first .typewriter.thick::after {
+  border-right: 1ch solid var(--caret);
+}
+
+.h1-first .typewriter.nocaret::after {
+  border-right: 0;
+}
+
+
+@media (prefers-reduced-motion) {
+  .typewriter::after {
+    animation: none;
+  }
+  
+  @keyframes sequencePopup {
+    0%, 100% { content: "developer"; }
+    50% { content: "writer"; }
+  }
+
+  .h1-first .typewriter::before {
+    content: "developer";
+    animation: sequencePopup 1s linear infinite;
+  }
+}
+
+@keyframes movimiento {
+  0% {
+    box-shadow: 20px 20px 50px #00000044, -20px -20px 50px #ffffff;
+  }
+  25% {
+    box-shadow: 10px 10px 50px #00000044, -30px -30px 50px #ffffff;
+  }
+  50% {
+    box-shadow: 0px 0px 50px #00000044, -40px -40px 50px #ffffff;
+  }
+  75% {
+    box-shadow: -10px -10px 50px #00000044, -30px -30px 50px #ffffff;
+  }
+  100% {
+    box-shadow: -20px -20px 50px #00000044, -20px -20px 50px #ffffff;
+  }
+}
+
+
+
+/* Sober Mi */
+.sobre_mi_text, .sobre_habilidades_text, .sobre_educacion_text{
+  margin-top: 1rem; 
+  font-size: 3.5rem;
+  text-decoration: underline;
+}
+
+.sobre_footer_text{
+  font-size: 2rem;
+}
+
+.sobre_habilidades_text, .sobre_habilidades_img{
+  color: #ffffff;
+}
+
+.sobre_habilidades{
+  margin-top: 10rem; 
+  border-radius: 2rem;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+  background-color:  rgb(53, 23, 71);;
+
+}
+
+.img_sobre_mi {
+  height: 30rem;
+  border-radius: 1rem;
+}
+
+
+.sobre_educacion{
+  border-radius: 2rem;
+  border: 1px solid #c8c8c8;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.project_description{
+  font-size: 14px;
+}
+
+
+
+/* Cambiar el color de la barra de desplazamiento */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Redondear la esquina de la barra de desplazamiento */
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+/* Cambiar el color del fondo de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* Cambiar el color del pulgar de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 4px;
+
+}
+
+/* Cambiar el color del pulgar de la barra de desplazamiento al pasar el cursor sobre él */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #424649;
+}
+
+
+.sobre_experiencia{
+  background-image: url('../public/img/imagen-pc-768x500.jpg');
+}
+
+.sobre_experiencia_text{
+  color: white;
+  font-size: 3.5rem;
+  text-decoration: underline;
+}
+
+.experiencia_contenido .card{
+  max-width: 18rem;
+  height: 400px;
+  background-color: white;
+  opacity: 0.9;
+}
+
+.experiencia_contenido .card .card-header{
+  text-align: center;
+  color: white;
+  height: 70px;
+  background-color:#4C2282 ;
+}
+
+.experiencia_contenido .card div.card-body{
+  text-align: start;
+  color: black;
+}
+
+.experiencia_contenido{
+  overflow: hidden;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: var(--swiper-pagination-bullet-opacity, 1);
+  background: white;
+}
+
+.sobre_proyectos .card {
+  border-radius: 0 0 0.5rem 0.5rem;
+}
+.sobre_proyectos .card-img-top{
+  filter: blur(0.6px);
+  height: 12rem;
+  width: 12rem;
+}
+
+.hover_link:hover {
+  color: #909294 !important
+}
+.contenedor_project{
+  overflow:hidden;
+  border: solid 1px #d2d2d2;
+  border-bottom: none;
+  border-radius: 0.5rem 0.5rem 0 0;
+
+}
+
+.img_project{
+  filter: blur(0px); 
+  transform:scale(1.3);
+  filter: saturate(70%);
+  transition: transform 0.3s ease;
+}
+
+.img_project_remove{
+  transform:scale(1);
+  transition: transform 0.3s ease;
+}
+
+/*body*/
+.menu{
+  margin-top: 80px;
+  transition: margin-left 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+/*separacion de toda la estructura de la barra de selección*/
+.main{
+  padding: 20px;
+}
+/*Icono para abrir y cerrar la barra de selección*/
+.icon_menu{
+  margin-left: 3rem;
+    width: 1rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(5px);
+    color: rgb(250, 250, 250);
+}
+.icon_menu i{
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+}
+/*menu de selección*/
+.menu_side{
+    
+    height: 100%;
+    position: fixed;
+    /* background: #285b5f; */
+    top: 0;
+    left: 0px;
+    font-size: 18px;
+    z-index: 300;
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 3rem;
+    transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+    display: flex;
+    justify-content: center;
+}
+/*logo*/
+
+@media (min-width: 992px) {
+  .sobre_mi{
+    height: 700px;
+    padding-top: 50px;
+  }
+
+  .sobre_educacion_contenedor{
+    height: 900px;
+  }
+
+  .sobre_experiencia{
+    background-image: url('../public/img/imagen-pc-1200x500.jpg');
+  }
+}
+
