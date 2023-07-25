@@ -165,10 +165,10 @@ export const projectsData = [
     {
         title: 'Cotizar Cripto',
         description: `Cotizador de criptomonedas con API Rest`,
-        url: 'https://github.com/vortegar/Journal-App',
+        url: 'https://luxury-elf-6360d3.netlify.app/',
         img: 'img/web2.jpg',
         alt: 'Cotizador Cripto',
-        ref: 'https://github.com/vortegar/Journal-App',
+        ref: 'https://luxury-elf-6360d3.netlify.app/',
         tech:{
             javascript:true,
             html:true,
