@@ -244,10 +244,9 @@ export const experienciaData = [
     },
     {
         title: 'Encarga de Calidad y Controlde Gestión',
-        subtitle:'Ingeniería Eléctrica Ltda',
+        subtitle:'Ing. Eléctrica Ltda',
         fecha: 'Marzo 2016 a Junio 2018',
         description: `Responsable de generar Kpi que permitieran analizar el nivel de desempeño en las diferentes áreas de la empresa y 
-        efectuar propuestas de mejora. Realizar el levantamiento de procesos de las diferentes áreas Generar manuales de procedimiento 
-        y gestión de calidad, según la normativa ISO 9001:2015.`,
+        efectuar propuestas de mejora. Realizar el levantamiento de procesos de las diferentes áreas y sus manuales de procedimiento.`,
     }
 ]
