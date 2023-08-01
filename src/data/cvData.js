@@ -140,8 +140,8 @@ export const experienceData = [
     },
     {
         title: 'Encargada de calidad y control de gestión',
-        charge: 'Ingeniería Eléctrica LTDA',
-        date: 'MArzo 2016 - Junio 2018',
+        charge: 'Ing. Eléctrica Ltda',
+        date: 'Marzo 2016 - Junio 2018',
         description: `Responsable de generar Kpi's que permitieran analizar el nivel de desempeño en las diferentes áreas de la empresa 
         y efectuar propuestas de mejora. Realizar el levantamiento de procesos de las diferentes áreas y elaborar sus respectivos 
         procedimientos.`
