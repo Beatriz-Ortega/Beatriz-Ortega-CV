@@ -1,5 +1,6 @@
 import { useState } from "react";
-import { projectsData } from "../data/cvData"
+import { projectsData } from "../data/cvData";
+import { SiTypescript } from 'react-icons/si';
 
 export const SeccionPortafolio = () => {
     const [selectImg, setSelectImg] = useState('');
@@ -76,6 +77,12 @@ export const SeccionPortafolio = () => {
                                         }
                                         {
                                             (project.tech.html) && <i className="fa-brands fa-html5 fa-xl me-3" style={{ color: 'black'}}></i>
+                                        }
+                                        {
+                                            (project.tech.angular) && <i className="fa-brands fa-angular fa-xl me-3" style={{ color: 'black'}}></i>
+                                        }
+                                        {
+                                            (project.tech.angular) && <SiTypescript className="me-3" size={24} color="black" />
                                         }
                                     </div>
                                     <a href={ project.ref } target='_blanck' >

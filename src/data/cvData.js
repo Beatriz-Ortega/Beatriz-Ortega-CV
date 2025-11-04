@@ -222,7 +222,22 @@ export const projectsData = [
             css:true,
             react: true,
         }        
-    }
+    },
+        {
+        title: 'control de valijas',
+        description: `Página web para llevar registro de valijas`,
+        // Angular boostrsap
+        url: 'https://control-valijas.netlify.app/recepcion',
+        img: 'img/web3.jpg',
+        alt: 'Control valijas',
+        ref: 'https://control-valijas.netlify.app/recepcion',
+        tech:{
+            angular:true,
+            typescript:true,
+            html:true,
+            sass: true
+        }
+    },
 ]
 
 export const experienciaData = [
