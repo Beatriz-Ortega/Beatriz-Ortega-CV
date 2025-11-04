@@ -53,7 +53,7 @@ export const educationData = [
         course: 'Web Development fundamentals, JavaScript, React + Redux, SQL',
         institute: 'Solo Learn.',
         date: 'Agosto 2022'
-    }
+    },
 ]
 
 export const habilitysData = [
@@ -111,7 +111,12 @@ export const habilitysData = [
         title: 'Jira',
         description: 'Jira',
         icons: 'fab fa-jira fa-2x'
-    }
+    },
+    {
+        title: 'Angular',
+        description: 'Angular',
+        icons: 'fa-brands fa-angular fa-2x'
+    },
 
 ]
 
@@ -225,28 +230,28 @@ export const experienciaData = [
         title: 'Desarrolladora Front End',
         subtitle:'Digital Beat SPA',
         fecha: 'Marzo 2023 a Junio 2023',
-        description: `Desarrollo de web components según requerimiento del área de diseño utilizando Bootstrap, Sass, CSS, 
-        JavaScript con utilidades dinámicas e interactivas. Desarrollo de documentación para los componente desarrollados`,
+        description: `Desarrollo de aplicaciones móviles utilizando Angular e Ionic, implementandofuncionesparaAndroid/IOSque mejoran la experiencia del usuario. 
+        Además, gestión de datos con SQLite y uso de plugins de Capacitor y Cordova para funcionalidades nativas, optimizando el rendimiento y la funcionalidad en 9 aplicaciones del sistema de gestión.`,
+    },
+    {
+        title: 'Desarrolladora Front-End',
+        subtitle:'Digitech S.P.A.',
+        fecha: 'Julio 2023 a Marzo 2024',
+        description: `Desarrollo de aplicaciones web de gestión utilizando React, Material UI y JavaScript, creando interfaces de usuario dinámicas e interactivas. 
+        Además, elaboración de documentación detallada para los componentes desarrollados, facilitando la colaboración y el mantenimiento del código.`,
+    },
+    {
+        title: 'Desarrolladora Front End',
+        subtitle:'Digital Beat SPA',
+        fecha: 'Marzo 2023 a Junio 2023',
+        description: `Creación de componentes web según los requerimientos del área de diseño, empleando Bootstrap, Sass y JavaScript para funcionalidades interactivas.
+        Además, desarrollo de documentación técnica para los componentes, asegurando la coherencia y calidad del código.`,
     },
     {
         title: 'Desarrolladora Front End',
         subtitle:'Freelance',
         fecha: 'Septiembre 2022 a Marzo 2023',
-        description: `laborar paginas y aplicaciones web funcionales utilizando herramientas de desarrollo web como: HTML, React, 
-        Node.js, Express y MongoDB (Stack MERN), CSS, JavaScript, entre otros. Conocimientos en el sistema de versionado GIT.`,
-    },
-    {
-        title: 'Cofundadora y Encargada comercial',
-        subtitle:'Fruitastyc SPA',
-        fecha: 'Junio 2018 a Septiembre 2022',
-        description: `Levantar requerimientos con clientes y crear propuestas comerciales utilizando un enfoque de ventas consultivo para 
-        maximizar los resultados del cliente. Desarrollar y gestionar con éxito nuevos canales de venta digitales, ecommerce y marketplace.`,
-    },
-    {
-        title: 'Encarga de Calidad y Controlde Gestión',
-        subtitle:'Ing. Eléctrica Ltda',
-        fecha: 'Marzo 2016 a Junio 2018',
-        description: `Responsable de generar Kpi que permitieran analizar el nivel de desempeño en las diferentes áreas de la empresa y 
-        efectuar propuestas de mejora. Realizar el levantamiento de procesos de las diferentes áreas y sus manuales de procedimiento.`,
+        description: `Desarrollo de páginas y aplicaciones web funcionales utilizando el stack MERN (MongoDB, Express, React, Node.js), CSS y JavaScript. 
+        Además, gestión de versiones de código con GIT, asegurando la integridad y seguimiento de los proyectos.`,
     }
 ]

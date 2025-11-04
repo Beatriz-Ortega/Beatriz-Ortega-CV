@@ -304,6 +304,13 @@
   overflow: hidden;
 }
 
+.swiper-wrapper-fix .swiper-slide {
+  width: auto !important;
+}
+.swiper-wrapper-fix .swiper-wrapper {
+  width: 100% !important;
+}
+
 .swiper-pagination-bullet-active {
   opacity: var(--swiper-pagination-bullet-opacity, 1);
   background: white;
