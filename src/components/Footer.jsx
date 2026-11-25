@@ -1,3 +1,4 @@
+import { profile } from '../data/cvData'
 import { Icons } from "./Icons"
 
 export const Footer = () => {
@@ -9,7 +10,7 @@ export const Footer = () => {
             <p className='text-secondary mb-0'>Muchas gracias por visitar mi portafolio. No dudes en contactarme si me necesitas</p>
             <Icons styles='d-flex justify-content-center gap-4 mb-2'/>
             <hr/>
-            <p className='text-secondary'>Elaborado por 🎖️ Beatriz Ortega.</p>
+            <p className='text-secondary'>Elaborado por 🎖️ {profile.name}</p>
           </div>
         </div>
     </footer>

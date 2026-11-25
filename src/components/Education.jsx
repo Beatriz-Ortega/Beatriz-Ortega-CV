@@ -1,9 +1,16 @@
+import PropTypes from 'prop-types'
+import { FaChevronRight } from 'react-icons/fa'
 
-export const Education = ({education}) => {
-  return (
-        <div className="d-flex educacion_contenido" key={education.course}>
-          <i className="fas fa-chevron-right fa-1x mt-1"></i>
-          <p className="text-color-principal text-start ps-2"> <span className="text-nombre-educacion">{education.course} </span>{education.institute} {education.date}</p>
-        </div>
-  )
+export const Education = ({ title, detail }) => (
+  <li className="d-flex educacion_contenido">
+    <FaChevronRight className="mt-1" aria-hidden="true" />
+    <p className="text-color-principal text-start ps-2">
+      <strong className="text-nombre-educacion">{title}</strong> · {detail}
+    </p>
+  </li>
+)
+
+Education.propTypes = {
+  title: PropTypes.string.isRequired,
+  detail: PropTypes.string.isRequired,
 }

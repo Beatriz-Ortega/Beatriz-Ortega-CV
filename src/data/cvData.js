@@ -1,272 +1,112 @@
+export const profile = {
+  name: 'Beatriz E. Ortega R.',
+  title: 'Desarrolladora Full Stack',
+  degree: 'Ingeniera de Sistemas',
+  stack: 'TypeScript · Angular · React · Next.js · Node.js · NestJS · Ionic',
+  summary: 'Ingeniera de Sistemas y Desarrolladora Full Stack con más de 5 años de experiencia construyendo aplicaciones web y móviles con TypeScript: Angular, React, Next.js, Ionic y React Native en el frontend; Node.js, Express y NestJS en el backend.',
+  focus: 'He trabajado en salud pública, agroindustria y plataformas de gestión, desarrollando desde apps móviles offline-first sincronizadas con la web hasta interfaces config-driven que se publican sin nuevos despliegues. Me enfoco en código mantenible y orientado a producto, e incorporo IA en mi flujo de trabajo.',
+  location: 'Santiago, Chile',
+  email: 'ortega.bea87@gmail.com',
+  linkedin: 'https://www.linkedin.com/in/beatriz-ortega-rengifo',
+  github: 'https://github.com/Beatriz-Ortega',
+  whatsapp: 'https://wa.me/56937284858',
+  languages: 'Español: nativo · Inglés: B2 hablado, lectura avanzada',
+}
+
 export const educationData = [
-    {
-        course: 'Ingeniero de Sistemas',
-        institute: 'Universidad de Los Andes. Mérida, Venezuela.',
-        date: 'Octubre 2014'
-    },
-    {
-        course: 'Vue.Js de cero a experto',
-        institute: 'Udemy.',
-        date: 'Julio 2023'
-    },
-    {
-        course: 'React la guía completa Hooks context Redux Mern',
-        institute: 'Udemy',
-        date: 'Julio 2023'
-    },
-    {
-        course: 'Java Workshop',
-        institute: 'ModMed',
-        date: 'Junio 2023'
-    },
-    {
-        course: 'Bootstrap 5 y Sass',
-        institute: 'Udemy.',
-        date: 'Junio 2023'
-    },
-    {
-        course: 'The complete SASS And SCSS cource',
-        institute: 'Udemy.',
-        date: 'Abril 2023'
-    },
-    {
-        course: 'Selenium testing framework con python',
-        institute: 'Udemy.',
-        date: 'Enero 2023'
-    },
-    {
-        course: 'Fundamentos de pruebas de software - QA',
-        institute: 'Udemy.',
-        date: 'Enero 2023'
-    },
-    {
-        course: 'Universidad desarrollo web - FrontEnd Web Developer',
-        institute: 'Udemy',
-        date: 'Noviembre 2022'
-    },
-    {
-        course: 'Product Owner Certification',
-        institute: 'Scrum Manager',
-        date: 'Agosto 2022'
-    },
-    {
-        course: 'Web Development fundamentals, JavaScript, React + Redux, SQL',
-        institute: 'Solo Learn.',
-        date: 'Agosto 2022'
-    },
+  { course: 'Ingeniera de Sistemas', institute: 'Universidad de Los Andes, Mérida, Venezuela', year: 2014 },
+  { course: 'Product Owner Certification', institute: 'Scrum Manager, Chile', year: 2022 },
+  { course: 'Node.js: de cero a experto', institute: 'Udemy', year: 2026 },
+  { course: 'Angular: de cero a experto', institute: 'Udemy', year: 2026 },
+  { course: 'React: la guía completa (Hooks, Context, Redux, MERN)', institute: 'Udemy', year: 2023 },
 ]
 
-export const habilitysData = [
-    {
-        title: 'Vue.Js',
-        description: 'Vue.Js',
-        icons: 'fa-brands fa-vuejs fa-2x'
-    },
-    {
-        title: 'JavaScript',
-        description: 'JavaScript',
-        icons: 'fa-brands fa-square-js fa-2x'
-    },
-    {
-        title: 'Sass',
-        description: 'Sass',
-        icons: 'fa-brands fa-sass fa-2x'
-    },
-    {
-        title: 'Boostrap',
-        description: 'Boostrap',
-        icons: 'fa-brands fa-bootstrap fa-2x'
-    },
-    {
-        title: 'HTML',
-        description: 'HTML',
-        icons: 'fa-brands fa-html5 fa-2x'
-    },
-    {
-        title: 'CSS',
-        description: 'CSS',
-        icons: 'fa-brands fa-css3-alt fa-2x'
-    },
-    {
-        title: 'Node JS',
-        description: 'Node JS',
-        icons: 'fa-brands fa-node fa-2x'
-    },
-    {
-        title: 'React',
-        description: 'React',
-        icons: 'fa-brands fa-react fa-2x'
-    },
-    {
-        title: 'GIT',
-        description: 'GIT',
-        icons: 'fa-brands fa-github fa-2x'
-    },
-    {
-        title: 'Bases de datos',
-        description: 'MongoDB',
-        icons: 'fa-solid fa-database fa-2x'
-    },
-    {
-        title: 'Jira',
-        description: 'Jira',
-        icons: 'fab fa-jira fa-2x'
-    },
-    {
-        title: 'Angular',
-        description: 'Angular',
-        icons: 'fa-brands fa-angular fa-2x'
-    },
-
+export const skillsData = [
+  { title: 'Lenguajes', skills: 'JavaScript, TypeScript, SQL', category: 'languages' },
+  { title: 'Frontend', skills: 'Angular, React, Next.js, HTML5, CSS3, Sass, Tailwind CSS, Bootstrap, Material UI', category: 'frontend' },
+  { title: 'Estado', skills: 'NgRx, RxJS, Signals, Redux, Context API, Zustand', category: 'state' },
+  { title: 'Mobile', skills: 'Ionic, React Native, Capacitor, Cordova', category: 'mobile' },
+  { title: 'Backend y APIs', skills: 'Node.js, Express, NestJS, Prisma, GraphQL, REST APIs', category: 'backend' },
+  { title: 'Bases de datos', skills: 'PostgreSQL, MongoDB, SQLite', category: 'databases' },
+  { title: 'Calidad y DevOps', skills: 'Docker, Git, GitHub, Bitbucket, Azure DevOps, ESLint, Prettier, Husky, commitlint', category: 'devops' },
+  { title: 'Testing', skills: 'Jest, React Testing Library y Playwright', category: 'testing' },
+  { title: 'Metodologías', skills: 'Scrum, Kanban, Jira', category: 'methods' },
 ]
 
 export const experienceData = [
-    {
-        title: 'Desarrolladora Front End',
-        charge: 'Digital Beat SPA',
-        date: 'Marzo 2023 - Junio 2023',
-        description: `Desarrollo de web components según requerimiento del área de diseño utilizando Bootstrap, Sass, CSS, JavaScript 
-        con utilidades dinámicas, interactivas y con diseño responsive. Desarrollo de documentación para los componente elaborados.`
-    },
-    {
-        title: 'Desarrolladora Web Freelance',
-        charge: 'Freelance',
-        date: 'Septiembre 2022 - Marzo 2023',
-        description: `Elaborar paginas y aplicaciones web funcionales utilizando herramientas de desarrollo web como: HTML, React, 
-        Node.js, Express y MongoDB (Stack MERN), CSS, JavaScript, entre otros. Conocimientos en el sistema de versionado GIT.`
-    },
-    {
-        title: 'Cofundadora',
-        charge: 'Fruitastyc SPA',
-        date: 'Junio 2018 - Septiembre 2022',
-        description: `Levantar requerimientos con clientes y crear propuestas comerciales utilizando un enfoque de ventas consultivo 
-        para maximizar los resultados del cliente. Desarrollar y gestionar con éxito nuevos canales de venta digitales, ecommerce y 
-        marketplace.`
-    },
-    {
-        title: 'Encargada de calidad y control de gestión',
-        charge: 'Ing. Eléctrica Ltda',
-        date: 'Marzo 2016 - Junio 2018',
-        description: `Responsable de generar Kpi's que permitieran analizar el nivel de desempeño en las diferentes áreas de la empresa 
-        y efectuar propuestas de mejora. Realizar el levantamiento de procesos de las diferentes áreas y elaborar sus respectivos 
-        procedimientos.`
-    }
+  {
+    company: 'Siigsa',
+    title: 'Desarrolladora Front-End',
+    dates: '08/2026 – A la actualidad',
+    description: 'Para la red pública de salud, desarrollé módulos de Ley de Urgencia, Estrategia de Desocupación y Derivación de Paciente Crítico. Implementé pantallas Server-Driven UI con Next.js, React, MongoDB y Laravel para publicar vistas sin nuevos despliegues. Incorporé Zustand y permisos por perfil.',
+  },
+  {
+    company: 'Aurentec SpA',
+    title: 'Desarrolladora Full Stack',
+    dates: '09/2025 – 07/2026',
+    description: 'Desarrollé funcionalidades de administración, gestión de usuarios, informes de inspección y certificados en una plataforma PERN (PostgreSQL, Express, React/Next.js y Node.js). Construí la app de inspecciones en React Native para trabajar sin conexión y sincronizar con la web mediante GraphQL.',
+  },
+  {
+    company: 'Agroprime SpA',
+    title: 'Desarrolladora Front-End / Mobile',
+    dates: '03/2024 – 09/2025',
+    description: 'Desarrollé aplicaciones para Android e iOS con Angular e Ionic, persistencia local con SQLite y plugins nativos con Capacitor y Cordova. Mejoré el rendimiento, la funcionalidad y la estabilidad de 9 aplicaciones y ejecuté migraciones de Angular e Ionic.',
+  },
+  {
+    company: 'Digitech SpA',
+    title: 'Desarrolladora Front-End',
+    dates: '04/2023 – 03/2024',
+    description: 'Desarrollé aplicaciones web de gestión con React, Next.js y Material UI, con interfaces dinámicas y responsivas. Creé componentes reutilizables y su documentación técnica, mejorando la consistencia de la plataforma y la colaboración entre equipos.',
+  },
+  {
+    company: 'Digital Beat SpA',
+    title: 'Desarrolladora Front-End',
+    dates: '03/2022 – 04/2023',
+    description: 'Transformé diseños en componentes web reutilizables con JavaScript, Bootstrap y Sass, manteniendo coherencia visual y estándares de calidad. Documenté los componentes implementados para facilitar su mantenimiento.',
+  },
 ]
 
 export const projectsData = [
-    {
-        title: 'Calculadora',
-        description: 'Calculadora creada con HTML, CSS y JS',
-        url: 'https://github.com/Beatriz-Ortega/Calculadora',
-        img: 'img/web.jpg',
-        alt: 'calculadora',
-        ref: 'https://github.com/Beatriz-Ortega/Calculadora',
-        tech:{
-            javascript:true,
-            css:true,
-            html:true
-        }
-    },
-    {
-        title: 'Cotizar Cripto',
-        description: `Cotizador de criptomonedas con API Rest`,
-        url: 'https://luxury-elf-6360d3.netlify.app/',
-        img: 'img/web2.jpg',
-        alt: 'Cotizador Cripto',
-        ref: 'https://luxury-elf-6360d3.netlify.app/',
-        tech:{
-            javascript:true,
-            html:true,
-            css:true,
-            react: true
-        }        
-    },
-    {
-        title: 'Carro de compras',
-        description: `Página web con carro de compras`,
-        // React boostrsap
-        url: 'https://luxury-elf-6360d3.netlify.app/',
-        img: 'img/web3.jpg',
-        alt: 'Carro de compras',
-        ref: 'https://luxury-elf-6360d3.netlify.app/',
-        tech:{
-            javascript:true,
-            html:true,
-            css: true
-        }
-    },
-    {
-        title: 'Citas veterinarias',
-        description: `Sistema de citas creado con React`,
-        //creada utilizando HTML, Bootstrap y Sass.
-        url: 'https://graceful-meringue-f4104e.netlify.app/',
-        img: 'img/web.jpg',
-        alt: 'Citas Veterinarias',
-        ref: 'https://graceful-meringue-f4104e.netlify.app/',
-        tech:{
-            react:true,
-            html: true,
-            sass:true
-        }
-    },
-    {
-        title: 'Control de presupuesto',
-        description: `Sistema de control de presupuesto`,
-        url: 'https://mellow-cat-24a356.netlify.app/',
-        img: 'img/web2.jpg',
-        alt: 'Control de presupuesto',
-        ref: 'https://mellow-cat-24a356.netlify.app/',
-        tech:{
-            javascript:true,
-            html:true,
-            css:true,
-            react: true,
-        }        
-    },
-        {
-        title: 'control de valijas',
-        description: `Página web para llevar registro de valijas`,
-        // Angular boostrsap
-        url: 'https://control-valijas.netlify.app/recepcion',
-        img: 'img/web3.jpg',
-        alt: 'Control valijas',
-        ref: 'https://control-valijas.netlify.app/recepcion',
-        tech:{
-            angular:true,
-            typescript:true,
-            html:true,
-            sass: true
-        }
-    },
-]
-
-export const experienciaData = [
-    {
-        title: 'Desarrolladora Front End',
-        subtitle:'Digital Beat SPA',
-        fecha: 'Marzo 2023 a Junio 2023',
-        description: `Desarrollo de aplicaciones móviles utilizando Angular e Ionic, implementandofuncionesparaAndroid/IOSque mejoran la experiencia del usuario. 
-        Además, gestión de datos con SQLite y uso de plugins de Capacitor y Cordova para funcionalidades nativas, optimizando el rendimiento y la funcionalidad en 9 aplicaciones del sistema de gestión.`,
-    },
-    {
-        title: 'Desarrolladora Front-End',
-        subtitle:'Digitech S.P.A.',
-        fecha: 'Julio 2023 a Marzo 2024',
-        description: `Desarrollo de aplicaciones web de gestión utilizando React, Material UI y JavaScript, creando interfaces de usuario dinámicas e interactivas. 
-        Además, elaboración de documentación detallada para los componentes desarrollados, facilitando la colaboración y el mantenimiento del código.`,
-    },
-    {
-        title: 'Desarrolladora Front End',
-        subtitle:'Digital Beat SPA',
-        fecha: 'Marzo 2023 a Junio 2023',
-        description: `Creación de componentes web según los requerimientos del área de diseño, empleando Bootstrap, Sass y JavaScript para funcionalidades interactivas.
-        Además, desarrollo de documentación técnica para los componentes, asegurando la coherencia y calidad del código.`,
-    },
-    {
-        title: 'Desarrolladora Front End',
-        subtitle:'Freelance',
-        fecha: 'Septiembre 2022 a Marzo 2023',
-        description: `Desarrollo de páginas y aplicaciones web funcionales utilizando el stack MERN (MongoDB, Express, React, Node.js), CSS y JavaScript. 
-        Además, gestión de versiones de código con GIT, asegurando la integridad y seguimiento de los proyectos.`,
-    }
+  {
+    title: 'Calculadora',
+    description: 'Calculadora creada con HTML, CSS y JavaScript',
+    url: 'https://github.com/Beatriz-Ortega/Calculadora',
+    image: 'img/web.jpg',
+    technologies: ['JavaScript', 'CSS', 'HTML'],
+  },
+  {
+    title: 'Cotizar Cripto',
+    description: 'Cotizador de criptomonedas con API REST',
+    url: 'https://luxury-elf-6360d3.netlify.app/',
+    image: 'img/web2.jpg',
+    technologies: ['JavaScript', 'React', 'CSS', 'HTML'],
+  },
+  {
+    title: 'Carro de compras',
+    description: 'Página web con carro de compras',
+    url: 'https://luxury-elf-6360d3.netlify.app/',
+    image: 'img/web3.jpg',
+    technologies: ['JavaScript', 'CSS', 'HTML'],
+  },
+  {
+    title: 'Citas veterinarias',
+    description: 'Sistema de citas creado con React',
+    url: 'https://graceful-meringue-f4104e.netlify.app/',
+    image: 'img/web.jpg',
+    technologies: ['Sass', 'React', 'HTML'],
+  },
+  {
+    title: 'Control de presupuesto',
+    description: 'Sistema de control de presupuesto',
+    url: 'https://mellow-cat-24a356.netlify.app/',
+    image: 'img/web2.jpg',
+    technologies: ['JavaScript', 'React', 'CSS', 'HTML'],
+  },
+  {
+    title: 'Control de valijas',
+    description: 'Página web para llevar registro de valijas',
+    url: 'https://control-valijas.netlify.app/recepcion',
+    image: 'img/web3.jpg',
+    technologies: ['Sass', 'HTML', 'Angular', 'TypeScript'],
+  },
 ]

@@ -8,7 +8,7 @@ export const Navbar = () => {
                 <div className="col-12">
                 <nav className="navbar navbar-expand-lg">
                     <button className="navbar-toggler text-white color fs-4 hover_link me-5 ms-2 my-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">BO</button>
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Mostrar u ocultar menú">BO</button>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav color">
                             <List title='Experiencia' href='#Experiencia'/>

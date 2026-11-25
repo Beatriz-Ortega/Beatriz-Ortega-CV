@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500;600&display=swap');
 
 *{
   margin: 0;
@@ -47,6 +46,7 @@
 
 .tamaño-card-portafolio{
   width: 310px;
+  max-width: 100%;
 }
 
 .name_cv{
@@ -69,7 +69,8 @@
   padding-top: 250px;
 }
 
-.educacion_contenido i{
+.educacion_contenido svg{
+  flex-shrink: 0;
   color: var(--bs-tertiary-color);
 }
 
@@ -83,7 +84,7 @@
 }
 
 .name_cv_text{
-  font-size: 6.8rem;
+  font-size: min(6.8rem, 25vw);
   line-height: 80px;
 }
 
@@ -99,42 +100,55 @@
 
 /*Texto dinamico*/
 @keyframes typing {
-  0.0000%, 37.606% { content: ""; }
-  1.1395%, 36.4664% { content: "F"; }
-  2.2791%, 35.3268% { content: "Fr"; }
-  3.4186%, 34.1872% { content: "Fron"; }
-  4.5581%, 33.0476% { content: "Front"; }
-  5.6977%, 31.0908% { content: "Front E"; }
-  6.8372%, 30.7684% { content: "Front En"; }
-  7.9767%, 29.6288% { content: "Front End"; }
-  9.1163%, 28.4892% { content: "Front End D"; }
-  10.2558%, 27.3496% { content: "Front End De"; }
-  11.3954%, 26.21% { content: "Front End Dev"; }
-  12.5350%, 25.0704% { content: "Front End Deve"; }
-  13.6745%, 23.9308% { content: "Front End Devel"; }
-  14.8141%, 22.7912% { content: "Front End Develo"; }
-  15.9536%, 21.6516% { content: "Front End Develop"; }
-  17.0932%, 20.512% { content: "Front End Develope"; }
-  18.2328%, 19.3724% { content: "Front End Developer"; }
-
-  38.746%, 71.6776% { content: ""; }
-  39.8856%, 70.538% { content: "S"; }
-  40.0252%, 69.3984% { content: "Sy"; }
-  41.1648%, 68.2588% { content: "Sys"; }
-  42.3044%, 67.1192% { content: "Syst"; }
-  43.444%, 66.9796% { content: "Syste"; }
-  44.802%, 65.9796%  { content: "System"; }
-  45.5836%, 64.84%{ content: "System"; }
-  46.7232%, 63.7004%{ content: "Systems "; }
-  47.8628%, 62.5608% { content: "Systems E"; }
-  48.8628%, 61.100%{ content: "Systems En"; }
-  49.0024%, 60.4212% { content: "Systems Eng"; }
-  50.142%, 59.2816% { content: "Systems Engi"; }
-  51.142%, 58.2816% { content: "Systems Engin"; }
-  52.142%, 57.2816% { content: "Systems Engine"; }
-  53.142%, 56.2816% { content: "Systems Enginee"; }
-  54.142%, 55.2816% { content: "Systems Engineer"; }
-
+  0.000%, 37.600% { content: ""; }
+  0.722%, 36.878% { content: "D"; }
+  1.444%, 36.156% { content: "De"; }
+  2.166%, 35.434% { content: "Des"; }
+  2.888%, 34.712% { content: "Desa"; }
+  3.610%, 33.990% { content: "Desar"; }
+  4.332%, 33.268% { content: "Desarr"; }
+  5.054%, 32.546% { content: "Desarro"; }
+  5.776%, 31.824% { content: "Desarrol"; }
+  6.498%, 31.102% { content: "Desarroll"; }
+  7.220%, 30.380% { content: "Desarrolla"; }
+  7.942%, 29.658% { content: "Desarrollad"; }
+  8.664%, 28.936% { content: "Desarrollado"; }
+  9.386%, 28.214% { content: "Desarrollador"; }
+  10.108%, 27.492% { content: "Desarrolladora"; }
+  10.830%, 26.770% { content: "Desarrolladora "; }
+  11.552%, 26.048% { content: "Desarrolladora F"; }
+  12.274%, 25.326% { content: "Desarrolladora Fu"; }
+  12.996%, 24.604% { content: "Desarrolladora Ful"; }
+  13.718%, 23.882% { content: "Desarrolladora Full"; }
+  14.440%, 23.160% { content: "Desarrolladora Full "; }
+  15.162%, 22.438% { content: "Desarrolladora Full S"; }
+  15.884%, 21.716% { content: "Desarrolladora Full St"; }
+  16.606%, 20.994% { content: "Desarrolladora Full Sta"; }
+  17.328%, 20.272% { content: "Desarrolladora Full Stac"; }
+  18.050%, 19.550% { content: "Desarrolladora Full Stack"; }
+  38.750%, 71.680% { content: ""; }
+  39.498%, 70.932% { content: "I"; }
+  40.247%, 70.183% { content: "In"; }
+  40.995%, 69.435% { content: "Ing"; }
+  41.743%, 68.687% { content: "Inge"; }
+  42.492%, 67.938% { content: "Ingen"; }
+  43.240%, 67.190% { content: "Ingeni"; }
+  43.988%, 66.442% { content: "Ingenie"; }
+  44.737%, 65.693% { content: "Ingenier"; }
+  45.485%, 64.945% { content: "Ingeniera"; }
+  46.233%, 64.197% { content: "Ingeniera "; }
+  46.982%, 63.448% { content: "Ingeniera d"; }
+  47.730%, 62.700% { content: "Ingeniera de"; }
+  48.478%, 61.952% { content: "Ingeniera de "; }
+  49.227%, 61.203% { content: "Ingeniera de S"; }
+  49.975%, 60.455% { content: "Ingeniera de Si"; }
+  50.723%, 59.707% { content: "Ingeniera de Sis"; }
+  51.472%, 58.958% { content: "Ingeniera de Sist"; }
+  52.220%, 58.210% { content: "Ingeniera de Siste"; }
+  52.968%, 57.462% { content: "Ingeniera de Sistem"; }
+  53.717%, 56.713% { content: "Ingeniera de Sistema"; }
+  54.465%, 55.965% { content: "Ingeniera de Sistemas"; }
+  100% { content: ''; }
 }
 
 @keyframes blink {
@@ -157,55 +171,21 @@
   animation: blink 0.5s linear infinite;
 }
 
-.h1-first .typewriter.thick::after {
-  border-right: 1ch solid var(--caret);
-}
-
-.h1-first .typewriter.nocaret::after {
-  border-right: 0;
-}
-
-
-@media (prefers-reduced-motion) {
-  .typewriter::after {
+@media (prefers-reduced-motion: reduce) {
+  .h1-first .typewriter::before {
+    content: attr(data-title);
     animation: none;
   }
-  
-  @keyframes sequencePopup {
-    0%, 100% { content: "developer"; }
-    50% { content: "writer"; }
-  }
 
-  .h1-first .typewriter::before {
-    content: "developer";
-    animation: sequencePopup 1s linear infinite;
+  .h1-first .typewriter::after {
+    animation: none;
   }
 }
 
-@keyframes movimiento {
-  0% {
-    box-shadow: 20px 20px 50px #00000044, -20px -20px 50px #ffffff;
-  }
-  25% {
-    box-shadow: 10px 10px 50px #00000044, -30px -30px 50px #ffffff;
-  }
-  50% {
-    box-shadow: 0px 0px 50px #00000044, -40px -40px 50px #ffffff;
-  }
-  75% {
-    box-shadow: -10px -10px 50px #00000044, -30px -30px 50px #ffffff;
-  }
-  100% {
-    box-shadow: -20px -20px 50px #00000044, -20px -20px 50px #ffffff;
-  }
-}
-
-
-
-/* Sober Mi */
+/* Sobre mí */
 .sobre_mi_text, .sobre_habilidades_text, .sobre_educacion_text{
   margin-top: 1rem; 
-  font-size: 3.5rem;
+  font-size: clamp(2.25rem, 12vw, 3.5rem);
   text-decoration: underline;
 }
 
@@ -221,14 +201,10 @@
   margin-top: 10rem; 
   border-radius: 2rem;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
-  background-color:  rgb(53, 23, 71);;
+  background-color:  rgb(53, 23, 71);
 
 }
 
-.img_sobre_mi {
-  height: 30rem;
-  border-radius: 1rem;
-}
 
 
 .sobre_educacion{
@@ -272,12 +248,12 @@
 
 
 .sobre_experiencia{
-  background-image: url('../public/img/imagen-pc-768x500.jpg');
+  background-image: url('/img/imagen-pc-768x500.jpg');
 }
 
 .sobre_experiencia_text{
   color: white;
-  font-size: 3.5rem;
+  font-size: clamp(2.25rem, 12vw, 3.5rem);
   text-decoration: underline;
 }
 
@@ -298,22 +274,15 @@
 .experiencia_contenido .card div.card-body{
   text-align: start;
   color: black;
+  overflow-y: auto;
 }
 
 .experiencia_contenido{
   overflow: hidden;
 }
 
-.swiper-wrapper-fix .swiper-slide {
-  width: auto !important;
-}
-.swiper-wrapper-fix .swiper-wrapper {
-  width: 100% !important;
-}
-
-.swiper-pagination-bullet-active {
-  opacity: var(--swiper-pagination-bullet-opacity, 1);
-  background: white;
+.experiencia_contenido .swiper-slide {
+  width: min(18rem, calc(100% - 40px));
 }
 
 .sobre_proyectos .card {
@@ -323,6 +292,7 @@
   filter: blur(0.6px);
   height: 12rem;
   width: 12rem;
+  transition: transform 0.3s ease;
 }
 
 .hover_link:hover {
@@ -336,62 +306,21 @@
 
 }
 
-.img_project{
-  filter: blur(0px); 
-  transform:scale(1.3);
-  filter: saturate(70%);
-  transition: transform 0.3s ease;
+.tamaño-card-portafolio:has(.btn_visit:is(:hover, :focus-visible)) .card-img-top {
+  transform: scale(1.3);
 }
 
-.img_project_remove{
-  transform:scale(1);
-  transition: transform 0.3s ease;
+@media (prefers-reduced-motion: reduce) {
+  .sobre_proyectos .card-img-top {
+    transition: none;
+  }
 }
 
-/*body*/
-.menu{
-  margin-top: 80px;
-  transition: margin-left 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+@media (max-width: 575.98px) {
+  .fixed-top {
+    padding-inline: 12px;
+  }
 }
-/*separacion de toda la estructura de la barra de selección*/
-.main{
-  padding: 20px;
-}
-/*Icono para abrir y cerrar la barra de selección*/
-.icon_menu{
-  margin-left: 3rem;
-    width: 1rem;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translate(5px);
-    color: rgb(250, 250, 250);
-}
-.icon_menu i{
-    font-size: 20px;
-    cursor: pointer;
-    position: absolute;
-}
-/*menu de selección*/
-.menu_side{
-    
-    height: 100%;
-    position: fixed;
-    /* background: #285b5f; */
-    top: 0;
-    left: 0px;
-    font-size: 18px;
-    z-index: 300;
-    color: white;
-    overflow: hidden;
-    overflow-y: scroll;
-    width: 3rem;
-    transition: all 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
-    display: flex;
-    justify-content: center;
-}
-/*logo*/
 
 @media (min-width: 992px) {
   .sobre_mi{
@@ -404,7 +333,7 @@
   }
 
   .sobre_experiencia{
-    background-image: url('../public/img/imagen-pc-1200x500.jpg');
+    background-image: url('/img/imagen-pc-1200x500.jpg');
   }
 }
 
